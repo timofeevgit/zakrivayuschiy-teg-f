@@ -413,10 +413,6 @@
 }
 
 /* image filter */
-.filter-1 {
-
-}
-
 .filter-2 {
   filter: blur(0.2rem);
 }
