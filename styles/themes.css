@@ -8,30 +8,32 @@
 /* Light */
 :root.theme-light {
   --light-theme-background-color: #fff;
-  --background-image-light:
-  repeating-linear-gradient(90deg, #d3d3d3, #00000000 2px),
-  repeating-linear-gradient(180deg, #d3d3d3, #ffffff00 2px),
-  linear-gradient(#e7e7e7, #1a1a1a);
+  --background-image-light: repeating-linear-gradient(
+      90deg,
+      #d3d3d3,
+      #00000000 2px
+    ),
+    repeating-linear-gradient(180deg, #d3d3d3, #ffffff00 2px),
+    linear-gradient(#e7e7e7, #1a1a1a);
 }
 
 /* Dark */
 :root.theme-dark {
   --dark-theme-background-color: #000;
-  --dark-theme-accent-color: #00CC14;
-  --dark-theme-accent-color-opacity: #00CC1460;
+  --dark-theme-accent-color: #00cc14;
+  --dark-theme-accent-color-opacity: #00cc1460;
   --dark-theme-title-font-weight: 785;
   --dark-theme-text-font-weight: 465;
   --text-stroke-dark-theme: #00000060;
-  --background-image-dark:
-  repeating-linear-gradient(90deg, #000, #00000000 2px),
-  repeating-linear-gradient(180deg, #000, #ffffff00 2px),
-  linear-gradient(#007f0c, #004306);
+  --background-image-dark: repeating-linear-gradient(90deg, #000, #00000000 2px),
+    repeating-linear-gradient(180deg, #000, #ffffff00 2px),
+    linear-gradient(#007f0c, #004306);
 }
 
 .theme-dark .page {
   background-color: var(--dark-theme-background-color);
   background-image: var(--background-image-dark);
-  font-variation-settings: 'wght' 465, 'wdth' 116.667;
+  font-variation-settings: "wght" 465, "wdth" 116.667;
 }
 
 .theme-dark .header {
@@ -54,6 +56,7 @@
 .theme-dark .main__container {
   background-color: var(--dark-theme-background-color);
   border: 2px solid var(--dark-theme-accent-color);
+  color: var(--dark-theme-accent-color);
 }
 
 .theme-dark .save-button__container {
@@ -62,11 +65,7 @@
 }
 
 .theme-dark .theme-menu__button:disabled {
-  color: #00CC1470;
-}
-
-.theme-dark .main__container {
-  color: var(--dark-theme-accent-color);
+  color: #00cc1470;
 }
 
 .theme-dark .main__img_label {
@@ -92,6 +91,7 @@
 
 .theme-dark .floppy-icon {
   fill: var(--dark-theme-accent-color);
+  color: var(--dark-theme-accent-color);
 }
 
 .theme-dark .like-icon {
@@ -141,19 +141,15 @@
   color: var(--dark-theme-accent-color);
 }
 
-.theme-dark .floppy-icon {
-  color: var(--dark-theme-accent-color);
-}
-
 .theme-dark .card__like-button::before {
   background-color: var(--dark-theme-accent-color);
 }
 
-.theme-dark .save-button::before  {
+.theme-dark .save-button::before {
   background-color: var(--dark-theme-accent-color);
 }
 
-.theme-dark .modal-window__close-button::before  {
+.theme-dark .modal-window__close-button::before {
   background-color: var(--dark-theme-accent-color);
 }
 
@@ -164,21 +160,24 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --dark-theme-background-color: #000;
-    --dark-theme-accent-color: #00CC14;
-    --dark-theme-accent-color-opacity: #00CC1460;
+    --dark-theme-accent-color: #00cc14;
+    --dark-theme-accent-color-opacity: #00cc1460;
     --dark-theme-title-font-weight: 785;
     --dark-theme-text-font-weight: 465;
     --text-stroke-dark-theme: #00000060;
-    --background-image-dark:
-    repeating-linear-gradient(90deg, #000, #00000000 2px),
-    repeating-linear-gradient(180deg, #000, #ffffff00 2px),
-    linear-gradient(#007f0c, #004306);
+    --background-image-dark: repeating-linear-gradient(
+        90deg,
+        #000,
+        #00000000 2px
+      ),
+      repeating-linear-gradient(180deg, #000, #ffffff00 2px),
+      linear-gradient(#007f0c, #004306);
   }
 
   .page {
     background-color: var(--dark-theme-background-color);
     background-image: var(--background-image-dark);
-    font-variation-settings: 'wght' 465, 'wdth' 116.667;
+    font-variation-settings: "wght" 465, "wdth" 116.667;
   }
 
   .header {
@@ -197,6 +196,7 @@
   .main__container {
     background-color: var(--dark-theme-background-color);
     border: 2px solid var(--dark-theme-accent-color);
+    color: var(--dark-theme-accent-color);
   }
 
   .main__title_container {
@@ -209,11 +209,7 @@
   }
 
   .theme-menu__button:disabled {
-    color: #00CC1470;
-  }
-
-  .main__container {
-    color: var(--dark-theme-accent-color);
+    color: #00cc1470;
   }
 
   .save-button__container {
@@ -226,6 +222,7 @@
 
   .floppy-icon {
     fill: var(--dark-theme-accent-color);
+    color: var(--dark-theme-accent-color);
   }
 
   .like-icon {
@@ -280,19 +277,15 @@
     color: var(--dark-theme-accent-color);
   }
 
-  .floppy-icon {
-    color: var(--dark-theme-accent-color);
-  }
-
   .card__like-button::before {
     background-color: var(--dark-theme-accent-color);
   }
 
-  .save-button::before  {
+  .save-button::before {
     background-color: var(--dark-theme-accent-color);
   }
 
-  .modal-window__close-button::before  {
+  .modal-window__close-button::before {
     background-color: var(--dark-theme-accent-color);
   }
 
