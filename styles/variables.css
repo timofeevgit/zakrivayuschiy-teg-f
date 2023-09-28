@@ -1,1 +1,43 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  /* fonts */
+  --main-font-family: 'Inter', sans-serif;
+  --accent-font-family: 'PressStart2P-Regular', sans-serif;
+  --main-font-size: 18px;
+  --title-font-weight: 700;
+  --text-font-weight: 400;
+
+  /* background-image */
+  --background-image-light:
+    repeating-linear-gradient(90deg, #d3d3d3, #00000000 2px),
+    repeating-linear-gradient(180deg, #d3d3d3, #ffffff00 2px),
+    linear-gradient(#e7e7e7, #1a1a1a);
+  --background-image-dark:
+    repeating-linear-gradient(90deg, #000, #00000000 2px),
+    repeating-linear-gradient(180deg, #000, #ffffff00 2px),
+    linear-gradient(#007f0c, #004306);
+
+  /* themes */
+  --light-theme-background-color: #fff;
+  --dark-theme-background-color: #000;
+  --light-theme-accent-color: #000;
+  --dark-theme-accent-color: #00CC14;
+  --dark-theme-title-font-weight: 785;
+  --dark-theme-text-font-weight: 465;
+  --light-theme-title-font-weight: 700;
+  --text-stroke-light-theme: #ffffff60;
+  --text-stroke-dark-theme: #00000060;
+  --dark-theme-accent-color-opacity: #00CC1460;
+
+  /* containers */
+  --max-container-width: 696px;
+  --min-header-container-height: 323px;
+  --min-main-container-height: 224px;
+
+  /* heart */
+  --heart-color-sparks: #FF0000;
+  --heart-color-contour: #000;
+  --heart-color-core: #000;
+  --heart-color-main-body: #FF0000;
+}
