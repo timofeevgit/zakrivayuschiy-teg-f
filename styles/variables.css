@@ -3,7 +3,7 @@
 :root {
   /* fonts */
   --main-font-family: 'Inter', sans-serif;
-  --accent-font-family: 'PressStart2P-Regular', sans-serif;
+  --accent-font-family: 'PressStart2P-Regular', fantasy;
   --main-font-size: 18px;
   --title-font-weight: 700;
   --text-font-weight: 400;
