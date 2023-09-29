@@ -62,6 +62,7 @@
 .theme-dark .save-button__container {
   background-color: var(--dark-theme-background-color);
   border: 2px solid var(--dark-theme-accent-color);
+  color: var(--dark-theme-accent-color);
 }
 
 .theme-dark .theme-menu__button:disabled {
@@ -84,10 +85,6 @@
 
 .theme-dark .main__text_container {
   border-block-start: 2px solid var(--dark-theme-accent-color);
-}
-
-.theme-dark .save-button__container {
-  color: var(--dark-theme-accent-color);
 }
 
 .theme-dark .card__like-button {
@@ -211,14 +208,11 @@
   .save-button__container {
     background-color: var(--dark-theme-background-color);
     border: 2px solid var(--dark-theme-accent-color);
+    color: var(--dark-theme-accent-color);
   }
 
   .theme-menu__button:disabled {
     color: #00cc1470;
-  }
-
-  .save-button__container {
-    color: var(--dark-theme-accent-color);
   }
 
   .card__like-button {
