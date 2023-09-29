@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
-  font-variation-settings: 'wght' 400 'wdth' 116.667;
+  font-variation-settings: 'wght' 400 700 'wdth' 116.667;
   background-color: var(--light-theme-background-color);
   background-image: var(--background-image-light);
   background-attachment: fixed;

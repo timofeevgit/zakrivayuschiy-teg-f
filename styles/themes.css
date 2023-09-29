@@ -33,7 +33,7 @@
 .theme-dark .page {
   background-color: var(--dark-theme-background-color);
   background-image: var(--background-image-dark);
-  font-variation-settings: "wght" 465, "wdth" 116.667;
+  font-variation-settings: "wght" 465 785, "wdth" 116.667;
 }
 
 .theme-dark .header {
@@ -81,6 +81,7 @@
 
 .theme-dark .main__title {
   border-block-end: 2px solid var(--dark-theme-accent-color);
+  font-weight: var(--dark-theme-title-font-weight);
 }
 
 .theme-dark .main__text_container {
@@ -203,6 +204,7 @@
 
   .main__title {
     border-block-end: 2px solid var(--dark-theme-accent-color);
+    font-weight: var(--dark-theme-title-font-weight);
   }
 
   .save-button__container {
