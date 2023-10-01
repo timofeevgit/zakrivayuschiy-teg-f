@@ -12,11 +12,11 @@
   --background-image-light:
     repeating-linear-gradient(90deg, #d3d3d3, #00000000 2px),
     repeating-linear-gradient(180deg, #d3d3d3, #ffffff00 2px),
-    linear-gradient(#e7e7e7, #1a1a1a);
+    repeating-linear-gradient(#e7e7e7, #1a1a1a);
   --background-image-dark:
     repeating-linear-gradient(90deg, #000, #00000000 2px),
     repeating-linear-gradient(180deg, #000, #ffffff00 2px),
-    linear-gradient(#007f0c, #004306);
+    repeating-linear-gradient(#007f0c, #004306);
 
   /* themes */
   --light-theme-background-color: #fff;
