@@ -178,6 +178,7 @@
   width: 100%;
 }
 
+
 .main__text_container {
   padding-inline: 25px;
   padding-block: 25px;
@@ -445,7 +446,7 @@
 }
 
 /* Media for mobile */
-@media (width <= 375px) {
+@media (width <= 414px) {
 
   .header {
     width: 100%;
