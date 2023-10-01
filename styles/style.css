@@ -23,6 +23,7 @@
   background-image: var(--background-image-light);
   background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Header section */
